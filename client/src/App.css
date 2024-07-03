@@ -141,20 +141,47 @@ li {
 }
 
 /* Dashboard Page Styles */
-.dashboard-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(120deg, #f093fb, #f5576c);
-  color: white;
-  text-align: center;
+.dashboard-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
 
-.dashboard-page h1 {
-  font-size: 48px;
+.dashboard-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
+
+.dashboard-welcome {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for separation */
+}
+
+.dashboard-welcome-message {
+  color: #007bff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.dashboard-project-description {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Background styling */
+body {
+  background-color: #f8f9fa; /* Light grey background for the entire page */
+}
+
 
 /* Form Styles */
 .login-box {
