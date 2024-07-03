@@ -60,14 +60,19 @@ li {
 }
 
 .logo {
-  font-size: 35px;
+  font-size: 28px;
   font-family: 'Pacifico', cursive;
   background: linear-gradient(45deg, #ff6b6b, #f06595, #cc5de8, #845ef7, #5c7cfa, #329af0, #22b8cf, #20c997, #51cf66, #94d82d, #fcc419, #ff922b);
-  -webkit-background-clip: text;
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* WebKit-based browsers */
+  -moz-background-clip: text; /* Firefox */
+  -ms-background-clip: text; /* Internet Explorer and Edge */
   -webkit-text-fill-color: transparent;
   animation: gradient-animation 5s ease infinite;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+
 
 .hamburger {
   display: none;
