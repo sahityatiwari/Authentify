@@ -150,6 +150,11 @@ li {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
 
+.dashboard-content {
+  max-width: 800px; /* Limit content width for better readability */
+  margin: 0 auto; /* Center align content horizontally */
+}
+
 .dashboard-title {
   color: #333;
   text-align: center;
@@ -172,15 +177,17 @@ li {
 }
 
 .dashboard-project-description {
-  color: #555;
+  color: #000000;
   font-size: 16px;
   line-height: 1.6;
+  margin-top: 20px; /* Add space above the project description */
 }
 
 /* Background styling */
 body {
   background-color: #f8f9fa; /* Light grey background for the entire page */
 }
+
 
 
 /* Form Styles */
