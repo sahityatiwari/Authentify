@@ -1,24 +1,18 @@
-import { Link } from "react-router-dom"
-import React, { useState } from "react";
+// Navbar.jsx
+import { Link } from "react-router-dom";
+import React from "react";
+
 export default function Navbar() {
-  
-   return (
+  return (
     <nav className="navbar">
-      <div className="logo">NotesApp</div>
-      <div>
-        <ul className="nav-links">
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <div className="menu">
-          <li>
-            <Link to='/'>Home</Link>
-          </li>
-          </div>
-        </ul>
-      </div> 
+      <div className="logo">Authentify</div>
+   
+      <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
+      <ul className="nav-links">
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+      </ul>
     </nav>
-    
   );
-};
-
-
+}
